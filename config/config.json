@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "rest-api-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/restApi/RestApiWebPart.js",
+          "manifest": "./src/webparts/restApi/RestApiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RestApiWebPartStrings": "lib/webparts/restApi/loc/{locale}.js"
+  }
+}
